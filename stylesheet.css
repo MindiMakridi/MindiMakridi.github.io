@@ -8,7 +8,7 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 0px;
-   
+    margin-bottom: 0px;
 	text-align: center;
 	min-width: 1111px;
 	
@@ -48,7 +48,7 @@ nav{
 	font-family: 'Lato', Arial;
 	float: right;
 	margin-right: 240px;
-	margin-top: 10px;
+	
 	margin-bottom: 0px;
 	
 	font-size: 13pt;
@@ -141,9 +141,13 @@ font-weight: lighter;
 }
 .serviceblock{
 	display: inline-block;
-	max-height: 280px;
+	
 	padding: 0px;
 	max-width: 1147px;
+
+}
+.servicecontents:last-child{
+	margin-right: 0px;
 
 }
 
@@ -156,7 +160,7 @@ font-weight: lighter;
 	margin-top: 100px;
 	vertical-align: top;
 	font-size: 14px;
-	line-height: normal;
+	line-height: 1.5;
 
 }
 .servicecontents h2{
@@ -165,7 +169,7 @@ font-weight: lighter;
 }
 
 .spritecontainer{
-	
+	display: inline-block;
 	background-image:url(images/services.png);
 	margin-left: auto;
     margin-right: auto;
@@ -177,6 +181,7 @@ font-weight: lighter;
 
 #android{
 	background-position: 0px 0px;
+	width: 52px;
 	
 }
 
@@ -190,7 +195,8 @@ font-weight: lighter;
 }
 
 #watch{
-	background-position: -218px;
+	background-position: -227px;
+	width: 57px;
 	
 }
 
