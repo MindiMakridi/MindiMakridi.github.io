@@ -181,22 +181,24 @@ font-weight: lighter;
 
 #android{
 	background-position: 0px 0px;
-	width: 52px;
+	width: 46px;
 	
 }
 
 #Monitor{
 	background-position: -69px;
+	width: 62px;
 	
 }
 #photo{
-	background-position: -150px;
+	background-position: -157px;
+	width: 60px;
 	
 }
 
 #watch{
-	background-position: -227px;
-	width: 57px;
+	background-position: -230px;
+	width: 54px;
 	
 }
 
